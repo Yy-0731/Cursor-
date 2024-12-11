@@ -13,18 +13,19 @@
 
 1. 下载 `Cursor.sh` 脚本
 
-2.放置在自己管理员终端路径下
+2. 放置在自己管理员终端路径下
 比如C:\Windows\System32
 
-3.运行脚本：
+3. 运行脚本(使用管理员)：
 ```bash
 查看设备 ID
 Python Cursor.py ids
 使用自定义设备 ID
 Python Cursor.py random-ids
-```
 重置id
 Python Cursor.py reset-ids
+```
+
 
 ## 注意事项
 
@@ -32,10 +33,17 @@ Python Cursor.py reset-ids
 - 使用前要先删除machineid文件 ~\AppData\Roaming\Cursor下
 - 请确保在运行脚本前关闭 Cursor 编辑器
 - 仅支持 window 系统
+- 教程抖音已发布 liny0624
 
 
 
 
 ## 免责声明
 
-本脚本仅供学习和研究使用，使用本脚本可能违反 Cursor 的服务条款。请合理使用，风险自负。
+- 本脚本仅供学习和研究使用，使用本脚本可能违反 Cursor 的服务条款。请合理使用，风险自负。
+- 文本格式参考作者fly8888
+- mac解决方法可参考https://github.com/fly8888/cursor_machine_id?
+
+
+
+
